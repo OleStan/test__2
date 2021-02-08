@@ -1,6 +1,6 @@
 lock "~> 3.15.0"
 
-set :repo_url, "git@github.com:OleStan/test_deploy.git"
+set :repo_url, "git@github.com:OleStan/test__2.git"
 ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 set :user, "deployer"
